@@ -1,0 +1,9 @@
+lib HelloJNI
+    :
+    jni/Main.cpp
+    :
+    <include>/System/Library/Frameworks/JavaVM.framework/Versions/Current/Headers
+    <link>shared
+    ;
+
+install libs : HelloJNI ;
